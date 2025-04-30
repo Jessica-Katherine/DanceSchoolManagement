@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  padding-bottom: 120px; 
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #222;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  z-index: 1000;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .social-icons a {
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+footer .social-icons a:hover {
+  color: #ff4081;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient {
+  position: absolute;
+  inset: 0;  
+  background: linear-gradient(45deg, rgb(255, 230, 1), rgba(221, 14, 93, 0.9), rgba(206, 0, 154, 0.8));
+  background-size: 300% 300%;
+  animation: gradientShift 10s ease infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+

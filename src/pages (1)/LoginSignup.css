@@ -1,0 +1,74 @@
+.login-signup-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #ff758c, #ff7eb3);
+    padding: 2rem;
+  }
+  
+  .form-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff4e63;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .toggle-form {
+    margin-top: 1rem;
+    color: #444;
+    cursor: pointer;
+    text-decoration: underline;
+    text-align: center;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+  }
+  
+  .welcome-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .card-btn {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #ff4e63;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .logout {
+    background-color: #888;
+  }
+  
